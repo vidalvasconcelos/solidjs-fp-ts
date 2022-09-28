@@ -1,4 +1,4 @@
-import { defineConfig } from 'vite';
+import {defineConfig} from 'vite';
 import solidPlugin from 'vite-plugin-solid';
 
 export default defineConfig({
@@ -8,6 +8,6 @@ export default defineConfig({
   },
   build: {
     target: 'esnext',
+    outDir: './public'
   },
-
 });
